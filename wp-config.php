@@ -23,7 +23,7 @@
 define('DB_NAME', 'd8ad688kmrb9qq');
 
 /** Username của database */
-define('DB_USER', 'd8ad688kmrb9qq');
+define('DB_USER', 'ltktopxfnnndec');
 
 /** Mật khẩu của database */
 define('DB_PASSWORD', '48043360c5c59712501b3be84b9f674aee5bf92d87de3fb28ca69309a96d55ee');
