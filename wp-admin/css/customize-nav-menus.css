@@ -216,10 +216,6 @@
 	padding-top: 12px;
 }
 
-.menu-location-settings .customize-control-checkbox .theme-location-set {
-	line-height: 1;
-}
-
 .customize-control-nav_menu_auto_add label {
 	vertical-align: top;
 }
@@ -794,7 +790,7 @@ body.adding-menu-items #customize-preview iframe {
 }
 
 #accordion-section-add_menu .customize-add-menu-button {
-	font-weight: 400;
+	font-weight: normal;
 }
 
 #create-new-menu-submit {
