@@ -20,11 +20,11 @@
 
 // Sendgrid settings - Read in the sendgrid auth from the config //
 define('SENDGRID_USERNAME', $_ENV["SENDGRID_USERNAME"]);
-define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]); 
-  
+define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]);
+
 // S3 Config Info - read the S3 Access Keys from the config //
 define( 'AWS_ACCESS_KEY_ID', $_ENV["AWS_ACCESS_KEY_ID"]);
-define( 'AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]);  
+define( 'AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]);
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
@@ -100,7 +100,7 @@ define( 'WP_AUTO_UPDATE_CORE', false );
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
